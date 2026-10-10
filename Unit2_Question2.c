@@ -1,4 +1,4 @@
-//Here is second question in which I have considered how to SWAP TWO NUMBERS TAKEN FROM USER INPUT in C
+//Here is second question in which I have considered how to USE IF,IF ELSE ,ELSE in C
 
 #include <stdio.h>
 
