@@ -1,21 +1,19 @@
-//Here is third question in which I have considered how to differentiate in even and odd numbers in C
+//Here is third question in which I have considered how to SWAP TWO NUMBERS TAKEN FROM USER INPUT in C
+
 #include <stdio.h>
 
 int main()
 {
-    int n;
+    int a, b, temp;
 
-    printf("Enter a number: ");
-    scanf("%d", &n);
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
 
-    if (n % 2 == 0)
-    {
-        printf("Even");
-    }
-    else
-    {
-        printf("Odd");
-    }
+    temp = a;
+    a = b;
+    b = temp;
+
+    printf("After swapping: a = %d, b = %d", a, b);
 
     return 0;
 }
